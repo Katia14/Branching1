@@ -15,8 +15,10 @@ public class MyClass {
 
         // Branching assignment 1.2.
         int time = 100;
-        if (time < 12 && time >= 8) {
+        if (time <= 12 && time >= 6) {
             System.out.println("Good Morning Sunshine!");
+        } else if (time <=6 && time >=1) {
+            System.out.println("Sleep well! It is a night time");
         } else if (time >= 13 && time <= 19) {
             System.out.println("Good Afternoon. Work Hard!");
         } else if (time >= 20 && time <= 24) {
